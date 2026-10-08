@@ -1,0 +1,15 @@
+node_modules
+.next
+.runtime
+.env*
+screenshots
+test-results
+playwright-report
+*.tsbuildinfo
+*.log
+AGENTS.md
+QA.md
+DEPLOYMENT.md
+.git
+.codex
+.agents

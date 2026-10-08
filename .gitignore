@@ -1,0 +1,27 @@
+# Dependencies and generated output
+node_modules/
+.next/
+out/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.log
+
+# Credentials and local deployment state
+.env*
+!.env.example
+.vercel/
+.runtime/
+*.pem
+*.key
+
+# Local workspace notes and screenshots
+AGENTS.md
+QA.md
+DEPLOYMENT.md
+screenshots/
+.codex/
+.agents/
+.DS_Store
+Thumbs.db

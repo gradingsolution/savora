@@ -1,0 +1,3 @@
+export const assets = Object.fromEntries([
+  'logo','mascot','happy','thinking','worried','tired','avatar','barista','doctor','room','study','classroom','library','canteen','market','cafe','bus','wallet','savings','money','laptop','food','laundry','books','graduate','umbrella','medicine','friends','shopping','sale','work','homework','lowdata','sick','family','walletIcon','savingsIcon','heartIcon','productivityIcon','trophyIcon','badge-safety','badge-balance','badge-wealth','badge-debt','badge-promo','badge-study','badge-social','badge-needs','badge-survival','badge-broke','badge-master'
+].map(name => [name, `/assets/${name}.webp`])) as Record<string,string>;
